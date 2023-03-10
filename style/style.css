@@ -44,4 +44,32 @@ ul a{
    }
 
    /* nav setion end.... */
- 
+       /*header section--- */
+       .img_cover{
+        background-image: url(/Image/amish-thakkar-.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 0px;
+        padding-top: 50px;
+       }
+       .heading_text{
+       text-align: center;
+        color: #0400ff;
+        opacity: 100%;
+        margin-top: 100px;
+        
+       }
+       
+      
+       /*header section end--- */
+       .moment_section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:50% ;
+      
+       
+       }
+       .moment_text{
+        margin-left: 45%;
+       }
