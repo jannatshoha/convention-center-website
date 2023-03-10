@@ -50,7 +50,7 @@ ul a{
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
-        margin: 0px;
+       
         padding-top: 50px;
        }
        .heading_text{
@@ -63,6 +63,7 @@ ul a{
        
       
        /*header section end--- */
+      /* -- --moment Scetion--- */
        .moment_section{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -73,3 +74,30 @@ ul a{
        .moment_text{
         margin-left: 45%;
        }
+       /* -- --moment Scetion--- */
+       /* ----Our Service--- */
+       .display_culums{
+        display: flex;
+       align-content: center;
+       
+        gap: px;
+        
+       }
+       .continer_box{
+              height:fit-content;
+              width: 240px;
+              background-color: rgb(35, 90, 104);
+              border-radius: 25px;
+              margin-left: 40px;
+              margin-right: 40px;
+}
+       .text-alint{
+        padding: 15px;
+        color: white;
+       }
+      .btn_alint{
+       text-align: justify;
+
+      }
+       
+     /* ----Our Service end--- */
